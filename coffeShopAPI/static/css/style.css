@@ -1,0 +1,111 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+
+#hd-nav {
+    align-self: center;
+    justify-self: right;
+
+}
+
+#hd-nav a {
+    margin: 33.5px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-size: 20px;
+    transition: 1s;
+
+}
+
+#hd-nav a:hover {
+    text-decoration: underline;
+
+    color: rgb(213, 170, 85);
+    font-size: 21px;
+    transition: 0.5s;
+
+
+}
+
+#hd-nav a.login-btn {
+    background-color: black;
+    color: white;
+    padding: 2px 18px;
+    border-radius: 5px;
+
+}
+
+#hd-nav a.login-btn:hover {
+    color: rgb(233, 209, 160);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0s;
+
+
+}
+
+#hd-h1 {
+    font-family: 'Lobster 1.4';
+    font-style: italic;
+    font-weight: 800;
+    font-size: 40px;
+
+
+}
+
+
+#hero {
+    display:flex;
+
+}
+
+#hr-p {
+    font-family: 'Poppins';
+    font-size: x-large;
+    margin-top: 35px;
+    line-height: 160%;
+}
+
+#hr-h2 {
+    font-size: 45px;
+    font-weight: 700;
+    width: 70%;
+
+
+}
+
+.hr-div-tgs {
+    margin-left: 25px;
+}
+
+#cof-img {
+    width:400px;
+    border-radius: 12px;
+}
+
+#hr-img-bl {
+    width: 400px;
+    height: 560px;
+    border: solid black 4px;
+    border-radius: 15px;
+    margin-left: -25px;
+    margin-top: -146%;
+}
+
+.hr-div {
+    margin: 15px;
+}
+
+#order-btn {
+    width: 40%;
+    padding: 10px;
+    font-size: larger;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}

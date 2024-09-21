@@ -1,0 +1,14 @@
+Algorithm:
+
+1. Set up Django project and app
+2. Configure settings
+3. Define models
+4. Create views
+5. Design templates
+6. Set up URL routing
+7. Add static files (CSS, JavaScript)
+	Create 'static' folder with subfolders for 'css', 'js', and 'images'
+	Add style.css in the 'css' folder
+	Add main.js in the 'js' folder
+	Add necessary images to the 'images' folder
+8. Implement any dynamic functionality

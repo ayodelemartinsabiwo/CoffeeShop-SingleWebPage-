@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <header>
+            <h1 id="hd-h1">Coffee Shop</h1>
+            <nav id="hd-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#login" class="login-btn">Login</a>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="hr-div">
+                    <img src="{% static 'images/coffee.jpg' %}" alt="Coffee cup" id="cof-img">
+                    <div id="hr-img-bl"></div>
+                </div>
+
+                <div id="hr-dv2" class="hr-div">
+                    <h2 id="hr-h2" class="hr-div-tgs">Fuel Your Day with Our Perfect Brew</h2>
+                    <p id="hr-p" class="hr-div-tgs">Start your day with the energy and warmth of a perfectly crafted cup of coffee.
+                        Our expertly roasted beans are hand-selected from the finest sources, ensuring
+                        that every sip is smooth, rich, and full of flavor. Whether you're gearing up
+                        for a busy day or need a midday pick-me-up, our coffee is brewed to fuel your
+                        passion and keep you going. Come in for a cup and experience the perfect blend
+                        that turns ordinary moments into extraordinary ones.</p>
+                    <button id="order-btn" class="hr-div-tgs btn btn-info">Order Now</button>
+                </div>
+            </section>
+
+            <!-- Add more sections as needed -->
+        </main>
+    </div>
+    <script src="{% static 'js/main.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
